@@ -1,0 +1,27 @@
+/***** Base Styles *****/
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+}
+
+
+/***** Gallery *****/
+
+
+
+
+/***** Media Queries *****/
