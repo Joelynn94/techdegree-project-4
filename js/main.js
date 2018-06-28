@@ -12,7 +12,7 @@ function filter() {
     var filterValue = filterInput.value.toUpperCase();
     
     // Loop through captions and display images realted to the captions
-    for (var i = 0; i < filterValue.length; i++ ){
+    for (var i = 0; i < filterData.length; i++ ){
         var title = filterData[i].getAttribute('data-title');
 
         if (title.toUpperCase().includes(filterValue)) {
