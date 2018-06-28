@@ -35,11 +35,11 @@ img {
     height: 200px;
     width: 100%;
     object-fit: cover;
-    margin: 15px 0 15px 0;
+    margin: 20px 0 20px 0;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 15px;
+    grid-gap: 20px;
 }
